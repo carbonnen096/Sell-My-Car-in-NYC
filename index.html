@@ -23,6 +23,41 @@
       border: 1px solid #ddd;
     }
 
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+      border-bottom: 2px solid #0b3d91;
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      max-height: 80px;
+      width: auto;
+    }
+
+    .contact-info {
+      text-align: right;
+    }
+
+    .phone-link {
+      display: inline-block;
+      background-color: #0b3d91;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: background-color 0.3s;
+    }
+
+    .phone-link:hover {
+      background-color: #072a6b;
+      text-decoration: none;
+    }
+
     h1, h2, h3 {
       color: #0b3d91;
     }
@@ -114,21 +149,40 @@
     .cta a:hover {
       background-color: #e3c906;
     }
+
+    @media (max-width: 768px) {
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      .contact-info {
+        margin-top: 15px;
+        text-align: center;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="container">
+    <div class="header">
+      <img src="https://sellmycarinnyc.com/wp-content/uploads/2025/06/cropped-logosellmycar.png" alt="Sell My Car NYC Logo" class="logo">
+      <div class="contact-info">
+        <a href="tel:646-551-0560" class="phone-link">Call Now: 646-551-0560</a>
+      </div>
+    </div>
+
     <h1>Sell Your Car in Manhattan, NY – Fast, Easy, and Hassle-Free</h1>
     <p>
-      Selling a car in New York City—especially in Manhattan—can be an intimidating process. Between busy schedules, parking restrictions, and countless online listings, it's no wonder so many car owners find themselves frustrated. But it doesn’t have to be this way. If you're looking for a trusted, convenient way to <a href="https://sellmycarinnyc.com/" target="_blank"><strong>Sell My Car in NYC</strong></a>, we make the process <strong>fast</strong>, <strong>easy</strong>, and <strong>completely hassle-free</strong>—no matter your car’s condition.
+      Selling a car in New York City—especially in Manhattan—can be an intimidating process. Between busy schedules, parking restrictions, and countless online listings, it's no wonder so many car owners find themselves frustrated. But it doesn’t have to be this way. If you're looking for a trusted, convenient way to <a href="https://sellmycarinnyc.com/" target="_blank"><strong>Sell My Car in NYC</strong></a>, we make the process <strong>fast</strong>, <strong>easy</strong>, and <strong>completely hassle-free</strong>—no matter your car's condition.
     </p>
 
     <h2>Why Choose Us to Sell Your Car in Manhattan?</h2>
-    <p>Here’s why thousands of Manhattan car owners trust us:</p>
+    <p>Here's why thousands of Manhattan car owners trust us:</p>
 
     <div class="highlight-box">
       <h3>✅ Instant, Fair Cash Offers</h3>
-      <p>We provide <strong>immediate cash offers</strong> based on your car’s market value, condition, mileage, and demand in the NYC area. No haggling, no waiting.</p>
+      <p>We provide <strong>immediate cash offers</strong> based on your car's market value, condition, mileage, and demand in the NYC area. No haggling, no waiting.</p>
     </div>
 
     <div class="highlight-box">
@@ -150,13 +204,13 @@
 
     <div class="highlight-box">
       <h3>✅ We Handle All the Paperwork</h3>
-      <p>We take care of the DMV paperwork and title transfers so you don’t have to. Stress-free and fully legal.</p>
+      <p>We take care of the DMV paperwork and title transfers so you don't have to. Stress-free and fully legal.</p>
     </div>
 
     <h2>How It Works: Sell Your Car in 3 Easy Steps</h2>
     <ol>
       <li><strong>Get a Free, No-Obligation Quote:</strong> Call or fill out our form with your car details.</li>
-      <li><strong>Schedule a Pickup:</strong> We’ll arrange a free towing at your convenience.</li>
+      <li><strong>Schedule a Pickup:</strong> We'll arrange a free towing at your convenience.</li>
       <li><strong>Get Paid:</strong> Receive cash or check on the spot after a quick vehicle check.</li>
     </ol>
 
@@ -201,7 +255,7 @@
         </tr>
         <tr>
           <td>🔧 We Buy Any Condition</td>
-          <td>Running or not, we’ll buy your vehicle.</td>
+          <td>Running or not, we'll buy your vehicle.</td>
         </tr>
         <tr>
           <td>🕒 Fast Process</td>
@@ -215,7 +269,7 @@
     </table>
 
     <h2>Skip the Headaches of Private Sales</h2>
-    <p>Unlike online listings or trade-ins, you won’t have to deal with:</p>
+    <p>Unlike online listings or trade-ins, you won't have to deal with:</p>
     <ul>
       <li>Lowball offers</li>
       <li>No-show buyers</li>
